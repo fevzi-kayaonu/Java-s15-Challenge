@@ -445,14 +445,14 @@ public class LibraryApplication {
     }
 
     private static void  addStart(){
-        library.addBook(new Book(1,new Author("şuaip"),"kitap 1",Category.FANTASY,"11",LocalDate.of(2024,10,10),Status.AVAILABLE));
-        library.addBook(new Book(2,new Author("hikmet"),"kitap 2",Category.SCIENCE_FICTION,"12",LocalDate.of(2024,10,10),Status.AVAILABLE));
-        library.addBook(new Book(3,new Author("levent"),"kitap 3",Category.ROMANCE,"13",LocalDate.of(2024,10,10),Status.AVAILABLE));
-        library.addBook(new Book(4,new Author("fatma"),"kitap 4",Category.ROMANCE,"13",LocalDate.of(2024,10,10),Status.AVAILABLE));
-        library.addBook(new Book(5,new Author("kemal"),"kitap 5",Category.JOURNAL,"13",LocalDate.of(2024,10,10),Status.AVAILABLE));
-        library.addBook(new Book(6,new Author("kemal"),"kitap 6",Category.SCIENCE_FICTION,"13",LocalDate.of(2024,10,10),Status.AVAILABLE));
-        library.addBook(new Book(7,new Author("hikmet"),"kitap 7",Category.STUDY,"13",LocalDate.of(2024,10,10),Status.AVAILABLE));
-        library.addBook(new Book(8,new Author("ayşe"),"kitap 8",Category.STUDY,"13",LocalDate.of(2024,10,10),Status.AVAILABLE));
+        library.addBook(new Book(1,new Author("J. R. R. Tolkien"),"Yüzük Kardeşliği",Category.FANTASY,"11",LocalDate.of(2024,10,10),Status.AVAILABLE));
+        library.addBook(new Book(2,new Author("J. R. R. Tolkien"),"Silmarillion",Category.FANTASY,"12",LocalDate.of(2024,10,10),Status.AVAILABLE));
+        library.addBook(new Book(3,new Author("J. R. R. Tolkien"),"İki Kule",Category.FANTASY,"13",LocalDate.of(2024,10,10),Status.AVAILABLE));
+        library.addBook(new Book(4,new Author("Fyodor Dostoyevski"),"Suç ve Ceza",Category.CLASSIC,"13",LocalDate.of(2024,10,10),Status.AVAILABLE));
+        library.addBook(new Book(5,new Author("Cixin Liu"),"Karanlık Orman",Category.SCIENCE_FICTION,"13",LocalDate.of(2024,10,10),Status.AVAILABLE));
+        library.addBook(new Book(6,new Author("Cixin Liu"),"Üç Cisim Problemi",Category.SCIENCE_FICTION,"13",LocalDate.of(2024,10,10),Status.AVAILABLE));
+        library.addBook(new Book(7,new Author("Mustafa Kemal Atatürk"),"NUTUK",Category.HISTORY,"13",LocalDate.of(2024,10,10),Status.AVAILABLE));
+        library.addBook(new Book(8,new Author("Isaac Newton"),"Principia",Category.STUDY,"13",LocalDate.of(2024,10,10),Status.AVAILABLE));
 
         library.addUser(new User(1,"fevzi","fevzi@gmail.com","123"));
         library.addUser(new User(2,"dogancan","dogancan@gmail.com","123"));

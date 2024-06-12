@@ -27,7 +27,7 @@ public class User extends Person {
         if (borrowedBooks.size() < BOOK_LIMIT && book.getStatus() == Status.AVAILABLE) {
             borrowedBooks.add(book);
             book.setStatus(Status.BORROWED);
-            System.out.println(getName() + " ödünç aldı " + book.getName());
+            System.out.println(getName() +  book.getName() + " kitabını ödünç aldı ");
             System.out.println(getBill(book).toString());
         }
         else if(borrowedBooks.size() >= BOOK_LIMIT ) {
@@ -38,7 +38,7 @@ public class User extends Person {
     public void returnBook(Book book) {
         if (borrowedBooks.remove(book)) {
             book.setStatus(Status.AVAILABLE);
-            System.out.println(getName() +  book.getName() + " geri verdi ");
+            System.out.println(getName() +  book.getName() + " kitabını geri verdi ");
             System.out.println(getBill(book).toString()+ " faturası alındı ücret geri verildi.");
 
         } else {
